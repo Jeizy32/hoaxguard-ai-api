@@ -1,5 +1,0 @@
-[build]
-builder = "python"
-
-[start]
-cmd = "gunicorn ml_api:app"
