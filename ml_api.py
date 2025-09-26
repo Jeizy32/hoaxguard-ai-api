@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import joblib
 
 # Load model & vectorizer
-model = joblib.load("model.pkl")
+model = joblib.load("hoax_model.pkl")
 vectorizer = joblib.load("vectorizer.pkl")
 
 app = Flask(__name__)
