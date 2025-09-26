@@ -4,3 +4,5 @@ joblib
 gunicorn
 pandas
 numpy
+requests
+nltk
